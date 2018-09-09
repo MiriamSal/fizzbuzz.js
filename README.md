@@ -14,7 +14,9 @@
 # I think here the eval function is an expression and not an statement. Expression = evaluation, statement = execution.
 
 # Which means that when we call fizzBuzz in our code we get the content of the file ('./src/js/fizz-buzz.js') evaluated and exported.
-
-
 #Sourses I have used for learning more about Question.1 is stackoverflow.com and w3schools.com.
+
+#Question.2:
+
+# We are declaring the "let fizzBuzz = new FizzBuzz" outside the "it block" because we want to use it for more than one test.
 
