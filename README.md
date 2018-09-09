@@ -2,7 +2,7 @@
 ### **What is FizzBuzz**
  FizzBuzz is a childrens game to learn division. 
 
-### *Deployed website*
+### *Deployed website WIP*
 
 ### Built with 
   JavaScript, using Unit and Feature test running npm. 
