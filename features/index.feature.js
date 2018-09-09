@@ -1,9 +1,11 @@
 
+
+const { FizzBuzz} = require('../spec/spec.helper')
 const { expect } = require('chai');
 const BrowserHelpers = require('e2e_training_wheels');
 const browser = new BrowserHelpers();
  
-describe('sample UI test', () => {
+describe('User can input a value and get FizzBuzz results', () => {
   before( async () => {
     await browser.init();
     await browser.visitPage('http://localhost:8080/');
@@ -17,7 +19,10 @@ describe('sample UI test', () => {
     await browser.close();
   });
  
-  it('/* description inserted here */', async () => {
-    //  Write tour scenario  
+  it('clicking on the "Check" button', async () => {
+      await browser.fillIn("input[id='value']", { with: "3"})
+      await browser.clickOnButton("input[value='Check']")
+      let content = await browser.getContent("[id='display_answer']")
+      expect(content).to.eql('Fizz'); 
   });
 });
