@@ -20,3 +20,7 @@
 
 # We are declaring the "let fizzBuzz = new FizzBuzz" outside the "it block" because we want to use it for more than one test.
 
+#Question.3:
+
+#The difference between using === and == in JS is, == can compare different data types, and === can only compare the same type of data.
+
