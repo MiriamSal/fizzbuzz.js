@@ -1,5 +1,5 @@
 
-## **What is FizzBuzz**
+### **What is FizzBuzz**
  FizzBuzz is a childrens game to learn division. 
 
 ### *Deployed website*
@@ -51,7 +51,7 @@ The operators are equality comparisons, the difference is that, == can compare d
 -------
 * **Question 7. In your README to the best of your knowledge please write a line to line explanation of what is happening in this code**
 
-<!-- <script src="src/js/fizz-buzz.js"></script>                            Using source fizz-buss.js
+ <script src="src/js/fizz-buzz.js"></script>                            Using source fizz-buss.js
     <script>
         document.addEventListener('DOMContentLoaded', () => {               Adding listener to page, when loaded....
             let button = document.getElementById('button')                  Saving button element in a varable named 'button'
@@ -63,7 +63,7 @@ The operators are equality comparisons, the difference is that, == can compare d
                 displayDiv.innerHTML = result;                              Displays result to user
             })
         })
-    </script> -->
+    </script> 
     
 -------
 * **Question 8. In your README to the best of your knowledge please explain what a CDN (Content Delivery Network) is?**
@@ -71,5 +71,5 @@ The operators are equality comparisons, the difference is that, == can compare d
 CDN means Contant delivery networks. CDN delivers content to users over networks, and one of it`s greater benefits are the capability to lower the distance between users. Which results in faster delivery of content. That it self also gives me as a user a better experience, which is of importance for the company im visiting/ using content from.
 
 -------
-## **Author**
+### **Author**
 * **Miriam Sallnäs**
