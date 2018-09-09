@@ -17,11 +17,11 @@ eval( fizzBuzz + `\nexports.FizzBuzz = FizzBuzz;`)
 * The eval() is a function that evaluates or executes an argument. In this example the argument is (fizzBuzz + `\nexports.FizzBuzz = FizzBuzz;`), 
 * The \n means new line.
 * I think here the eval function is an expression and not an statement. Expression = evaluation, statement = execution. ?
-* Which means that when we call fizzBuzz in our code we get the content of the file ('./src/js/fizz-buzz.js') evaluated and exported.
+* Which means that when we call fizzBuzz in our code we get the content of the file ('./src/js/fizz-buzz.js') evaluated and exported.```
 -------
 *Question 2. In your README to the best of your knowledge please explain why we are placing the (let fizzBuzz = new FizzBuzz) outside the it block?
 
-* We are declaring the "let fizzBuzz = new FizzBuzz" outside the "it block" because we want to use it for more than one test, so that way we don`t have to repete that code.
+```* We are declaring the "let fizzBuzz = new FizzBuzz" outside the "it block" because we want to use it for more than one test, so that way we don`t have to repete that code.
 -------
 * Question 3. In your README to the best of your knowledge please explain the difference between using === and == in JS?
 
