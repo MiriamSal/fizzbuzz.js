@@ -5,7 +5,7 @@
 ### *Deployed website WIP*
 
 ### Built with 
-  JavaScript, using Unit and Feature test running npm. 
+  JavaScript, using Unit and Feature test running npm. 5 of 5 tests run green.
  
 -------
 ### Answer
