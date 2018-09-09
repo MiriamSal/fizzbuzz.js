@@ -24,3 +24,7 @@
 
 #The difference between using === and == in JS is, == can compare different data types, and === can only compare the same type of data.
 
+#Question.4:
+
+#We move (number % 5 === 0) to the top because the method wont TO DO 
+
